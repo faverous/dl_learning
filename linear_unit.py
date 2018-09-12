@@ -50,6 +50,7 @@ def plot(linear_unit):
 
 if __name__ == '__main__': 
     '''训练线性单元'''
+    
     linear_unit = train_linear_unit()
     # 打印训练获得的权重
     print (linear_unit)
